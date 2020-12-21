@@ -54,7 +54,7 @@
 							// 把 current 挪出视口
 							current.style.transition = null // transition 置空 css 属性就会失效
 							current.style.transform = `translate(${ - 100 - 100 * position}%)` 
-						  // 把 next 挪进视口
+						  // 把 next挪进视口
 							next.style.transition = null
 							next.style.transform = `translate(${ - 100 * nextPosition}%)`
 							position = nextPosition
